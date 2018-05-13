@@ -1,0 +1,339 @@
+/************************
+        default
+*************************/
+body, h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+body{
+    width:1440px;
+    margin:0 auto;
+    font-family:"Microsoft JhenHei";
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cf:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*** bootstrap ***/
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.col-md-6 {
+    padding: 0;
+}
+
+
+/************************
+        header
+*************************/
+header {
+    height: 130px;
+    padding-top: 30px;
+}
+
+/***** logo *****/
+header h1 {
+    width: 443px;
+    height: 80px;
+    margin-left: 60px;
+    float: left;
+}
+
+header h1 a {
+    display: block;
+}
+
+header h1 a img {
+    width: 100%;
+}
+
+/***** nav bar *****/
+.nav {
+    float: left;
+    margin-top: 30px;
+    margin-left: 550px; /* if 555px then overflow */
+    margin-right: 70px;
+}
+
+.nav li {
+    float: left;
+    margin-left: 30px;
+}
+
+.nav li:first-child {
+    margin-left: 0;
+}
+
+.nav li:hover a {
+    color: #d7ac41;
+}
+
+.nav li a {
+    font-size: 14px;
+    color: #6c6c6c;
+}
+
+
+
+
+
+/************************
+        contents
+*************************/
+/***** mainRow1 *****/
+.mainRow1 {
+    width: 100%;
+    height: 782px;
+    background: url(../img/top-banner.jpg) no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.mainRow1 h1 {
+    padding: 0 315px;
+    padding-top: 335px;
+    padding-bottom: 20px;
+    
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.mainRow1 p {
+    font-size: 24px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/***** mainRow2 *****/
+.mainRow2 {
+    width: 100%;
+    height: 754px;
+    padding: 100px 335px;
+
+    background: url(../img/about-bg.jpg) no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.mainRow2 img {
+    margin-bottom: 40px;
+}
+
+.mainRow2 p {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.62em;
+}
+
+.mainRow2 p span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.mainRow2 .line {
+    width: 62px;
+    border: 1px solid #d7ac41;
+    margin: 40px auto;
+}
+
+
+
+
+/***** mainRow3 *****/
+.mainRow3 {
+    width: 100%;
+    height: 667px;
+    padding: 100px 135px;
+    background: url(../img/service-bg.jpg) no-repeat;
+}
+
+.mainRow3 .line {
+    width: 62px;
+    border: 1px solid #d7ac41;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.mainRow3 h2 {
+    margin-bottom: 40px;
+    text-align: center;
+
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+}
+
+.mainRow3 .items {
+    width: 270px;
+    height: 60px;
+
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+
+    background: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    line-height: 60px;
+}
+
+.mainRow3 .items:nth-child(4n) {
+    margin-right: 0;
+}
+
+
+/***** mainRow4 *****/
+.mainRow4 {
+    width: 100%;
+    padding: 100px 135px;
+    background: #f6f7f8;
+}
+
+.mainRow4 .line {
+    width: 62px;
+    border: 1px solid #d7ac41;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.mainRow4 h2 {
+    margin-bottom: 40px;
+    text-align: center;
+
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+}
+
+
+.mainRow4 img {
+    width: 270px;
+    height: 400px;
+    float: left;
+}
+
+.mainRow4 .info {
+    padding-top: 60px;
+    margin: 0 30px;
+    float: left;
+}
+
+.mainRow4 .info h3 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+}
+
+.info h5 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.info .title {
+    margin-bottom: 18px;
+}
+
+.info .motto {
+    margin-bottom: 16px;
+}
+
+.info p {
+    font-size: 16px;
+}
+
+.info .email {
+    margin-top: 20px;
+}
+
+.mainRow4 .all {
+    width: 270px;
+    height: 60px;
+    border: 1px solid #d7ac41;
+    margin: 0 auto;
+    margin-top: 60px;
+
+    text-align: center;
+    line-height: 60px;
+    color: #d7ac41;
+}
+
+
+
+/***** mainRow5 *****/
+.mainRow5 {
+    width: 100%;
+    height: 437px;
+    padding: 100px 0;
+    padding-left: 135px;
+    background: url(../img/footer-bg.jpg) no-repeat;
+}
+
+.mainRow5 .line {
+    width: 62px;
+    border: 1px solid #d7ac41;
+    margin-bottom: 25px;
+}
+
+.mainRow5 h3 {
+    margin-bottom: 40px;
+
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+}
+
+.mainRow5 .info {
+    font-size: 16px;
+}
+
+.mainRow5 .info .e_mail, .mainRow5 .info .phone {
+    float: left;
+}
+
+.mainRow5 .info .e_mail {
+    margin-right: 110px;
+}
+
+
+.mainRow5 .info p {
+    margin-bottom: 20px;
+}
+
+.maniRow5 .info .e_mail .invisible {
+    text-indent: -9999px;
+}
+/************************
+        footer
+*************************/
+footer {
+    height: 48px;
+    background: #2b2c2c;
+    
+    text-align: center;
+    line-height: 48px;
+    font-size: 16px;
+    color: white;
+}
